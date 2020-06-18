@@ -1,6 +1,9 @@
 body{
   background-color: #e3fdfd;
-  font-family:courier;
+  font-family: 'brandon-grotesque','HelveticaNeue-Light',
+  "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 16px;
+  color: #545454;
   width: 75%;
   margin:auto;
 }
@@ -15,6 +18,8 @@ hr{
   color: white;
   background: none;
   width: 8%;
+  margin:60px auto 60px auto;
+
 }
 hr:hover{
   color:gold;
@@ -24,6 +29,42 @@ table, td, thead, tr{
 border:none;
 padding: 10px;
 border-collapse: collapse;
+}
+.level{
+  width:300px;
+}
+footer{
+  background-color: #11999e;
+  margin: 10px 0 10px 0;
+}
+
+.pages{
+margin: auto;
+}
+.pag{
+  margin-right:30px;
+  color: white
+}
+.pag:hover{
+  color:gold;
+}
+
+progress {
+	width: 80%;
+	height: 20px;
+	color: #d39b0f;
+	background: #efefef;
+  border: 1px solid #7e6a37;
+}
+progress::-webkit-progress-bar {
+	background: #efefef;
+}
+progress::-webkit-progress-value {
+	background: #fdba12;
+}
+progress::-moz-progress-bar {
+	color: #fdba12;
+	background: #efefef;
 }
 
 h1,h3{
@@ -43,9 +84,4 @@ thead,tfoot{
   background-color: #11999e;
   color: #fefdca;
   text-align: center;
-
-
-}
-.pages{
-margin: auto;
 }
